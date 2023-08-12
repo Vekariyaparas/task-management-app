@@ -101,14 +101,6 @@ function App() {
               </tr>
             </thead>
             <tbody>
-            <tr>
-                    <th scope="row">0</th>
-                    <td>Create Login Form</td>
-                    <td>2023/08/10</td>
-                    <td>
-                      <button type='button'className='ms-2 p-1 border-0 bg-danger text-light rounded-1'>Delete</button>
-                    </td>
-                  </tr>
               {task && task.map((item) => {
                 return (
 
