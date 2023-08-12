@@ -64,7 +64,7 @@ function App() {
             <div className='d-flex justify-content-between m-0 p-3'>
               <div className=''>
                 <h2 className='text-success'>Task Manager App</h2>
-                <h3 className='mt-4'>Number of Task : <b className='text-success'>1 {task.length} </b></h3>
+                <h3 className='mt-4'>Number of Task : <b className='text-success'>{task.length} </b></h3>
               </div>
               <div className=''>
                 <button className='btn btn-success mt-1' onClick={handleShow}>Add Task</button>
