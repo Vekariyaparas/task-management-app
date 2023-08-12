@@ -1,0 +1,45 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background: url('../src/images/pexels-photo-3856635.webp');
+  background-size: 100% 100vh;
+}
+.TaskManager{
+  width: 100%;
+  height: auto;
+}
+.TaskManager .pops{
+  width: 40% !important;
+}
+.Manage{
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 991px){
+  .TaskManager .pops{
+    width: 50% !important;
+  }
+  .Manage{
+    width: 65% !important;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .TaskManager .pops{
+    width: 90% !important;
+  }
+  .Manage{
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 343px){
+  .TaskManager .pops{
+    width: 98% !important;
+  }
+  .Manage{
+    width: 98% !important;
+  }
+}
